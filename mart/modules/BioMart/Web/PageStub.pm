@@ -21,6 +21,8 @@ package BioMart::Web::PageStub;
 
 use strict;
 
+## TODO - update it to new controller structure
+
 use CGI qw(self_url);
 use CGI::Session;
 use CGI::Session::Driver::mysql; # required by CGI::Session
